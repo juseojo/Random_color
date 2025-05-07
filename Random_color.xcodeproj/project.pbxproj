@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E985DB5E2DCB298B00510756 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E985DB5D2DCB298B00510756 /* SnapKit */; };
+		E985DBB92DCB4AC700510756 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E985DBB82DCB4AC700510756 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E985DB352DCB216B00510756 /* Random_color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Random_color.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E985DBB82DCB4AC700510756 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,6 +52,7 @@
 		E985DB2C2DCB216B00510756 = {
 			isa = PBXGroup;
 			children = (
+				E985DBB82DCB4AC700510756 /* README.md */,
 				E985DB372DCB216C00510756 /* Random_color */,
 				E985DB362DCB216B00510756 /* Products */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E985DBB92DCB4AC700510756 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
