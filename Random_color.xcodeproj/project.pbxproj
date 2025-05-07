@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E985DB5E2DCB298B00510756 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E985DB5D2DCB298B00510756 /* SnapKit */; };
-		E985DB602DCB298B00510756 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = E985DB5F2DCB298B00510756 /* SnapKit-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +41,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E985DB5E2DCB298B00510756 /* SnapKit in Frameworks */,
-				E985DB602DCB298B00510756 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +84,6 @@
 			name = Random_color;
 			packageProductDependencies = (
 				E985DB5D2DCB298B00510756 /* SnapKit */,
-				E985DB5F2DCB298B00510756 /* SnapKit-Dynamic */,
 			);
 			productName = Random_color;
 			productReference = E985DB352DCB216B00510756 /* Random_color.app */;
@@ -364,11 +361,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E985DB5C2DCB298B00510756 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
-		};
-		E985DB5F2DCB298B00510756 /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E985DB5C2DCB298B00510756 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
