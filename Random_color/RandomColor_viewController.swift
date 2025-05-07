@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RandomColor_viewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
