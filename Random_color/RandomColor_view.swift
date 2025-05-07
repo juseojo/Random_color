@@ -10,7 +10,7 @@ import SnapKit
 
 class RandomColor_view: UIView {
 	let background_view: UIView = {
-		let view = UILabel()
+		let view = UIView()
 
 		view.backgroundColor = .white
 
@@ -83,5 +83,15 @@ class RandomColor_view: UIView {
 	
 	required init?(coder: NSCoder) {
 		fatalError("init(coder:) has not been implemented")
+	}
+
+	// Set background_view's background color
+	func setBackground_color(color: UIColor) {
+		background_view.backgroundColor = color
+	}
+
+	// Set RGB_label_text
+	func setRGB_label_text(text: String) {
+		RGB_label.text = text
 	}
 }
